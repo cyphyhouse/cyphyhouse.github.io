@@ -173,6 +173,16 @@ sub, sup { line-height: 0; }
 [role="banner"] h2:after { content: ""; visibility: visible; display: block; }
 
 
+/*-------------------------------------------    
+	Members
+-------------------------------------------*/
+[role="members"] h1 { padding: 1em 0 0; text-transform: uppercase; letter-spacing: 0.1em; font-size: 2.5rem; font-weight: 900; color: #182e4f; visibility: hidden; }
+[role="members"] h1:before { content: "Members"; visibility: visible; display: block; }
+[role="members"] h1:after { content: ""; visibility: visible; display: block; color: #aaa; letter-spacing: 0.5em; font-size: 1.4rem; font-weight: normal; margin: 0.5em 0 3em; color: rgba(24, 46, 79, 0.4); }
+
+[role="members"] h2 { visibility: hidden; display: none; text-transform: uppercase; font-weight: 400; color: rgba(41, 78, 134, 0.5); }
+[role="members"] h2:after { content: ""; visibility: visible; display: block; }
+
 
 /*-------------------------------------------    
     Preamble
@@ -188,11 +198,23 @@ sub, sup { line-height: 0; }
 
 
 /*-------------------------------------------    
+    
+
+/*-------------------------------------------    
 	Explanation
 -------------------------------------------*/
-.explanation h3:after { content: "See Yourself in a Different Way";  }
+.explanation h3:after { content: "";  }
+/*-------------------------------------------    
+	Pis
+-------------------------------------------*/
+.pis h3:after { content: "Principal Investigators";  }
+.pis ul { list-style: none; margin: 1em 0 0; width: 100%; text-align: center; }
 
-
+/*-------------------------------------------    
+	Students
+-------------------------------------------*/
+.students h3:after { content: "Students";  }
+.students ul { list-style: none; margin: 1em 0 0; width: 100%; text-align: center; }
 /*-------------------------------------------    
 	Participation
 -------------------------------------------*/
@@ -307,6 +329,7 @@ footer { font-size: 1.3rem; }
 
 	.preamble { padding-top: 10em; }
 		.preamble h3 { top: 5.9em; }
+
 
 	.design-selection li { width: 23%; margin-bottom: 3em; padding-right: 2%; }
 	.design-selection li:nth-child(odd) { width: 23%; clear: none; padding-right: 2%; }
