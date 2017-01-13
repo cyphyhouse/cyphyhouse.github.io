@@ -206,7 +206,7 @@ sub, sup { line-height: 0; }
 /*-------------------------------------------    
     Preamble
 -------------------------------------------*/
-.preamble { background: transparent url(i/sep.png) no-repeat 50% 0; }
+.preamble { background: transparent ) no-repeat 50% 0; }
 	.preamble h3:after { visibility: visible; content: "Fast and Reliable";  }
 
 
@@ -277,7 +277,7 @@ sub, sup { line-height: 0; }
 			.designer-name:after, footer a:after { height: 1px; }
 
 
-.select:after { content: "Navigation"; font-size: 1.8rem; text-align: center; width: 7em; margin: 0 auto 2em; background: transparent url(i/waves.png) no-repeat 50% 0; padding: 2em 0 0; color: #182e4f; visibility: visible; }
+.select:after { content: "Navigation"; font-size: 1.8rem; text-align: center; width: 7em; margin: 0 auto 2em; background: transparent no-repeat 50% 0; padding: 2em 0 0; color: #182e4f; visibility: visible; }
 
 .archives, .resources { position: absolute; left: -9999px;  }
 
@@ -286,15 +286,15 @@ sub, sup { line-height: 0; }
 	.design-archives a { display: block; text-indent: 100%; white-space: nowrap; overflow: hidden; }
 
 .next { margin-right: 3em; }
-	.next a { background: transparent url(s/czg.svg) no-repeat 10px -56px; width: 43px; height: 37px; }
+	.next a { background: transparent  no-repeat 10px -56px; width: 43px; height: 37px; }
 	.next a:hover, .next a:focus { background-position: 10px -138px; }
 
 .previous { margin-right: 3em; }
-	.previous a { background: transparent url(s/czg.svg) no-repeat 10px -220px; width: 43px; height: 37px; }
+	.previous a { background: transparent  no-repeat 10px -220px; width: 43px; height: 37px; }
 	.previous a:hover, .previous a:focus { background-position: 10px -302px; }
 
 .viewall { margin-left: 1em; }
-	.viewall a { background: transparent url(s/czg.svg) no-repeat -56px -55px; width: 39px; height: 39px; }
+	.viewall a { background: transparent  no-repeat -56px -55px; width: 39px; height: 39px; }
 	.viewall a:hover, .viewall a:focus { background-position: -56px -137px; }
 
 footer { font-size: 1.3rem; }
@@ -305,7 +305,7 @@ footer { font-size: 1.3rem; }
 .zen-resources ul:before { content: ""; height: 4px; width: 80px; background: #d5d9dc; display: block; text-align: center; margin: 0 auto 2em; }
 	.zen-resources li { margin: 0 0 1em 3em; display: inline-block; }
 	.zen-resources li:first-child { margin-left: 0; }
-		.zen-resources a { display: inline-block; text-indent: 100%; white-space: nowrap; overflow: hidden; background: transparent url(s/czg.svg) no-repeat 0 0; width: 60px; height: 60px; }
+		.zen-resources a { display: inline-block; text-indent: 100%; white-space: nowrap; overflow: hidden; background: transparent no-repeat 0 0; width: 60px; height: 60px; }
 		
 		.view-css a { background-position: -502px 12px; }
 		.view-css a:hover, .view-css a:focus { background-position: -502px -78px; }
@@ -327,7 +327,7 @@ footer { font-size: 1.3rem; }
 
 	body { background-attachment: fixed; background-position: 90% 80%; }
 
-	.intro:before { content: ""; display: block; width: 105px; height: 30px; position: fixed; top: 154px; left: 3%; background: transparent url(s/czg.svg) no-repeat -184px -99px; }
+	.intro:before { content: ""; display: block; width: 105px; height: 30px; position: fixed; top: 154px; left: 3%; background: transparent  no-repeat -184px -99px; }
 
 	[role="article"], [role="banner"], footer { padding: 0 30% 10em 10%; text-align: right; position: relative; }
 		[role="article"] h3, [role="banner"] h2 { position: absolute; top: -0.75em; left: 75%; width: 10em; text-align: left; font-size: 1.5rem; letter-spacing: 0; }
@@ -339,15 +339,15 @@ footer { font-size: 1.3rem; }
 		[role="banner"] h1:after { position: absolute; top: 15.7em; right: 30%; }
 		
 		[role="banner"] h2 { display: block; top: 8.1em; width: 3em; left: 75.5%; font-size: 1.9rem; line-height: 1; }
-		[role="banner"] h2:before { visibility: visible; content: "Est. 2003"; display: block; position: fixed; top: -0.1em; bottom: 0; left: -0.5em; right: 0; margin: auto; /*right: 25%;*/ font-weight: 900; font-size: 50rem; color: rgba(0, 0, 0, 0.15); width: 100%; height: 2em; line-height: 1; transform: rotate(-90deg); -ms-transform: rotate(-90deg); /* IE 9 */ -webkit-transform: rotate(-90deg); /* Safari and Chrome */ -webkit-mask-image: url(i/denim-mask2.png); -o-mask-image: url(i/denim-mask2.png); -moz-mask-image: url(i/denim-mask2.png); mask-image: url(i/denim-mask2.png); }
+		[role="banner"] h2:before { visibility: visible; content: "Est. 2003"; display: block; position: fixed; top: -0.1em; bottom: 0; left: -0.5em; right: 0; margin: auto; /*right: 25%;*/ font-weight: 900; font-size: 50rem; color: rgba(0, 0, 0, 0.15); width: 100%; height: 2em; line-height: 1; transform: rotate(-90deg); -ms-transform: rotate(-90deg); /* IE 9 */ -webkit-transform: rotate(-90deg); /* Safari and Chrome */  }
 
 		.summary p:nth-child(2) { background: yellow; position: relative; visibility: hidden; top: 2em; font-size: 1.4rem; }
 
-			.summary p:nth-child(2):before { content: ""; display: block; visibility: visible; position: absolute; right: 21em; top: -0.25em; background: transparent url(s/czg.svg) no-repeat -159px -1px; width: 6em; height: 30px; }
+			.summary p:nth-child(2):before { content: ""; display: block; visibility: visible; position: absolute; right: 21em; top: -0.25em; background: transparent no-repeat -159px -1px; width: 6em; height: 30px; }
 
-			.summary p:nth-child(2):after { content: ""; display: block; visibility: visible; position: absolute; right: 14em; top: -0.25em; background: transparent url(s/czg.svg) no-repeat -277px 0; width: 6em; height: 30px; }
+			.summary p:nth-child(2):after { content: ""; display: block; visibility: visible; position: absolute; right: 14em; top: -0.25em; background: transparent  no-repeat -277px 0; width: 6em; height: 30px; }
 
-			.summary p:nth-child(2) a { visibility: visible; background: transparent url(s/czg.svg) no-repeat -376px -93px; width: 6em; height: 25px; text-indent: 100%; white-space: nowrap; overflow: hidden; display: block; position: absolute; top: 0; right: 7em; }
+			.summary p:nth-child(2) a { visibility: visible; background: transparent  no-repeat -376px -93px; width: 6em; height: 25px; text-indent: 100%; white-space: nowrap; overflow: hidden; display: block; position: absolute; top: 0; right: 7em; }
 			.summary p:nth-child(2) a:hover, .summary p:nth-child(2) a:focus { background-position: -396px -3px; text-indent: 0; background: none; }
 			
 			.summary p:nth-child(2) a[href*="css"] { background-position: -472px -94px; right: 0; }
@@ -451,7 +451,7 @@ footer { font-size: 1.3rem; }
 h1 { font-size: 48px\9; text-transform: uppercase\9; margin: 0\9; padding-top: 30px\9;}
 h2 { font-size: 20px\9; }
 
-.next a, .previous a, .viewall a, .zen-resources a { background-image: url(i/czg.png)\9; }
+.next a, .previous a, .viewall a, .zen-resources a { }
 
 
 
