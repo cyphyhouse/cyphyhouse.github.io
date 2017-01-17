@@ -82,8 +82,8 @@ form { margin: 0 0 1.5em; }
 [role="banner"] h2:after { content: ""; visibility: visible; display: block; }
 
 
-[role="members"] h1 { padding: 1em 0 0; content: "CyPhyHouse Team"; text-transform: uppercase; letter-spacing: 0.1em; font-size: 3.5rem; font-weight: 900; color: #182e4f; visibility: visible;}
-[role="members"] h1:before {  visibility: hidden; display: block; }
+[role="members"] h1 { padding: 1em 0 0; text-transform: uppercase; letter-spacing: 0.1em; font-size: 3.5rem; font-weight: 900; color: #182e4f; visibility: hidden; }
+[role="members"] h1:before {  content: "The CyPhyHouse Team"; visibility: visible; display: block; }
 [role="members"] h1:after { content: ""; visibility: visible; display: block; color: #aaa; letter-spacing: 0.5em; font-size: 1.4rem; font-weight: normal; margin: 0.5em 0 3em; color: rgba(24, 46, 79, 0.4); }
 
 [role="members"] h2 { visibility: hidden; display: none; text-transform: uppercase; font-weight: 400; color: rgba(41, 78, 134, 0.5); }
@@ -184,17 +184,26 @@ height : 1px;
 
 	.intro:before { content: ""; display: block; width: 105px; height: 30px; position: fixed; top: 154px; left: 3%; background: transparent url(s/czg.svg) no-repeat -184px -99px; }
 
-	[role="article"], [role="banner"], footer { padding: 0 30% 10em 10%; text-align: right; position: relative; }
-		[role="article"] h3, [role="banner"]  h2 { position: absolute; top: -0.75em; left: 75%; width: 10em; text-align: left; font-size: 1.5rem; letter-spacing: 0; }
+	[role="article"], [role="banner"],[role="members"], footer { padding: 0 30% 10em 10%; text-align: right; position: relative; }
+		[role="article"] h3, [role="banner"] h2 { position: absolute; top: -0.75em; left: 75%; width: 10em; text-align: left; font-size: 1.5rem; letter-spacing: 0; }
 		[role="article"] h3:after { position: absolute; top: 0; }
 
 	[role="banner"] { padding-top: 200px; padding-bottom: 3em; }
 		
-		[role="banner"]  h1 { font-size: 4.8rem; letter-spacing: 0; line-height: 0.8; }
+		[role="banner"] h1 { font-size: 4.8rem; letter-spacing: 0; line-height: 0.8; }
 		[role="banner"] h1:after { position: absolute; top: 15.7em; right: 30%; }
 		
 		[role="banner"] h2 { display: block; top: 8.1em; width: 3em; left: 75.5%; font-size: 1.9rem; line-height: 1; }
 		[role="banner"] h2:before { visibility: visible; content: ""; display: block; position: fixed; top: -0.1em; bottom: 0; left: -0.5em; right: 0; margin: auto; /*right: 25%;*/ font-weight: 900; font-size: 50rem; color: rgba(0, 0, 0, 0.15); width: 100%; height: 2em; line-height: 1; transform: rotate(-90deg); -ms-transform: rotate(-90deg); /* IE 9 */ -webkit-transform: rotate(-90deg); /* Safari and Chrome */  }
+
+    
+    	[role="members"] { padding-top: 200px; padding-bottom: 3em; }
+		
+		[role="members"] h1 { font-size: 4.8rem; letter-spacing: 0; line-height: 0.8; }
+		[role="members"] h1:after { position: absolute; top: 15.7em; right: 30%; }
+		
+		[role="members"] h2 { display: block; top: 8.1em; width: 3em; left: 75.5%; font-size: 1.9rem; line-height: 1; }
+		[role="members"] h2:before { visibility: visible; content: ""; display: block; position: fixed; top: -0.1em; bottom: 0; left: -0.5em; right: 0; margin: auto; /*right: 25%;*/ font-weight: 900; font-size: 50rem; color: rgba(0, 0, 0, 0.15); width: 100%; height: 2em; line-height: 1; transform: rotate(-90deg); -ms-transform: rotate(-90deg); /* IE 9 */ -webkit-transform: rotate(-90deg); /* Safari and Chrome */  }
 
 		.summary p:nth-child(2) { background: yellow; position: relative; visibility: hidden; top: 2em; font-size: 1.4rem; }
 
