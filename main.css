@@ -135,6 +135,13 @@ form { margin: 0 0 1.5em; }
 [role="f16dd"] h2 { visibility: hidden; display: none; text-transform: uppercase; font-weight: 400; color: rgba(41, 78, 134, 0.5); }
 [role="f16dd"] h2:after { content: ""; visibility: visible; display: block; }
 
+[role="kt"] h1 { padding: 1em 0 0; text-transform: uppercase; letter-spacing: 0.1em; font-size: 3.5rem; font-weight: 900; color: #182e4f; visibility: hidden; }
+[role="kt"] h1:before {  content: "The Koordinator Toolkit"; visibility: visible; display: block; }
+[role="kt"] h1:after { content: ""; visibility: visible; display: block; color: #aaa; letter-spacing: 0.5em; font-size: 1.4rem; font-weight: normal; margin: 0.5em 0 3em; color: rgba(24, 46, 79, 0.4); }
+
+[role="kt"] h2 { visibility: hidden; display: none; text-transform: uppercase; font-weight: 400; color: rgba(41, 78, 134, 0.5); }
+[role="kt"] h2:after { content: "Formal semantics and verification framework"; visibility: visible; display: block; }
+
 .preamble p:after{content:""}
 
 
