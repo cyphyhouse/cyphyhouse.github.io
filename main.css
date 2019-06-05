@@ -5,6 +5,7 @@ body { font-family: Helvetica, Arial, sans-serif; color: #333;
 }
 
 header {
+	text-align: right;
 	text-transform: uppercase;
 	visibility: visible;
 	display: block;
@@ -77,7 +78,9 @@ form { margin: 0 0 1.5em; }
 
 .main h3:after, .preamble h3:after, .select:after { visibility: visible; display: block; }
 
-.main p, .preamble p { font-size: 2rem; }
+.main p,
+.preamble p,
+.preamble ul { font-size: 2rem; }
 .wf-active .main p, .wf-active .preamble p { line-height: 1.4; }
 
 .next a,
@@ -263,13 +266,15 @@ height : 1px;
 
 	.intro:before { content: ""; display: block; width: 105px; height: 30px; position: fixed; top: 154px; left: 3%; background: transparent url(s/czg.svg) no-repeat -184px -99px; }
 
-	header { padding: 0 30% 10em 10%; text-align: right; position: relative; padding-top: 200px; padding-bottom: 3em; }
+	header { padding: 0 30% 10em 10%; position: relative; padding-top: 200px; padding-bottom: 3em; }
 	header h1 { font-size: 4.8rem; letter-spacing: 0; line-height: 0.8; }
 	header h2 { position: absolute; top: 15.7em; right: 30%; }
 
-	[role="article"], [role="banner"],[role="download"],[role="members"],[role="doc"], [role="s17dd"],[role="f16dd"],[role="kt"], footer { padding: 0 30% 10em 10%; text-align: right; position: relative; }
-		[role="article"] h3, [role="banner"] h2 { position: absolute; top: -0.75em; left: 75%; width: 10em; text-align: left; font-size: 1.5rem; letter-spacing: 0; }
-		[role="article"] h3:after { position: absolute; top: 0; }
+	[role="article"] { padding: 0 30% 10em 10%; text-align: left; position: relative; }
+	[role="article"] h3, [role="banner"] h2 { position: absolute; top: -0.75em; left: 75%; width: 10em; text-align: left; font-size: 1.5rem; letter-spacing: 0; }
+	[role="article"] h3:after { position: absolute; top: 0; }
+
+	[role="banner"],[role="download"],[role="members"],[role="doc"], [role="s17dd"],[role="f16dd"],[role="kt"], footer { padding: 0 30% 10em 10%; text-align: right; position: relative; }
 
 	[role="banner"] { padding-top: 200px; padding-bottom: 3em; }
 		
@@ -333,7 +338,7 @@ height : 1px;
 			.summary p:nth-child(2) a[href*="css"] { background-position: -472px -94px; right: 0; }
 			.summary p:nth-child(2) a[href*="css"]:hover, .summary p:nth-child(2) a[href*="css"]:focus { background-position: -512px -4px; }
 
-	.preamble { padding-top: 10em; }
+	.preamble { padding-top: 5em; }
 		.preamble h3 { top: 5.9em; }
 
 	.design-selection li { width: 23%; margin-bottom: 3em; padding-right: 2%; }
