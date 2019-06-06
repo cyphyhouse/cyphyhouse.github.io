@@ -192,7 +192,7 @@ height : 1px;
 
 	body { background-attachment: fixed; background-position: 90% 80%; }
 
-	.intro:before { content: ""; display: block; width: 105px; height: 30px; position: fixed; top: 154px; left: 3%; background: transparent url(s/czg.svg) no-repeat -184px -99px; }
+	.intro:before { content: ""; display: block; width: 105px; height: 30px; position: fixed; top: 154px; left: 3%; background: transparent no-repeat -184px -99px; }
 
 	header { padding: 0 30% 10em 10%; position: relative; padding-top: 200px; padding-bottom: 3em; }
 	header h1 { font-size: 4.8rem; letter-spacing: 0; line-height: 0.8; }
