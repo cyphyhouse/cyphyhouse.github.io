@@ -9,10 +9,10 @@ header {
 	text-transform: uppercase;
 	visibility: visible;
 	display: block;
-	background-image: url(pictures/photos/NSFlogo.png);
-	background-size: 100px 100px;
+	background-image: url(pictures/photos/NSFlogo.png), url(pictures/photos/UofIlogo.jpg);
+	background-size: 180px, 300px;
 	background-repeat: no-repeat;
-	background-position: left top;
+	background-position: left top, right top;
 }
 
 /* TODO move device specific configs to @media section*/
