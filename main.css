@@ -9,7 +9,7 @@ header {
 	text-transform: uppercase;
 	visibility: visible;
 	display: block;
-	background-image: url(pictures/photos/NSFlogo.png), url(pictures/photos/UofIlogo.jpg);
+	background-image: url(pictures/photos/NSFlogo.png), url(pictures/photos/UofIlogo.jpg);  url(pictures/cphlogo.png);
 	background-size: 180px, 300px;
 	background-repeat: no-repeat;
 	background-position: left top, right top;
