@@ -1,81 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-      <meta charset="utf-8"> 
-      
-      <!--The page title on the tab-->
-      <title>CyPhyHouse: A Distributed Robotics Framework </title>
-      
-      <!-- The CSS file included in the same directory for this page -->
-      <link rel="stylesheet" href="main.css">
+<html>
 
-  </head>
-  <body>
-      <div class="page-wrapper">
-          <div class="intro">
-            <header>
-              <h1>CyPhyHouse</h1>
-              <h2>A distributed robotics framework</h2>
-            </header>
-          </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>CPH</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-Clean.css">
+    <link rel="stylesheet" href="assets/css/Team-Grid.css">
+</head>
 
-      <div class="preamble">
-      <p role="article">
-          Distributed or swarm robots are at the frontier of manufacturing, transportation, logistics, and exploration. Programming and managing 
-          such systems can be a laborious and error-prone. CyPhyHouse aims to provide application programming interfaces (APIs) and software 
-          (compilers, deployers, simulators, debuggers) for reducing above efforts by orders of magnitude. The aim is to enable large-scale 
-          experimental research needed for developing computing systems that support 
-          and rely on coordinated and controlled mobility, for example, in the study of 
-          mobility of WiFi access points, debuggers for mobile systems, and augmented-reality 
-          with real and virtual Unmanned Autonomous Vehicles, etc. This project is sponsored by a research grant from the 
-          Division of Computer and Network Systems (CNS) of the <a href="https://www.nsf.gov/">National Science Foundation (NSF)</a>.
-      </p>
-	<tr>
-                <td><img src="pictures/photos/car.jpg"
-                style="width:200px"></td>
-                <td><img src="pictures/photos/quad.jpg"
-                style="width:200px"></td>
-		<td><img src="pictures/photos/formation4.png"
-                style="width:200px"></td>
-	</tr>	
-	<tr>
-	  	<td><img src="pictures/photos/UI_figure.png"
-                style="width:200px"></td>
-	  	<td><img src="pictures/photos/sim2.png"
-                style="width:200px"></td>
-	</tr>	
-	<tr>
-	  	<td><img src="pictures/photos/IMG_0106.jpg"
-                style="width:200px"></td>
-	  	<td><img src="pictures/photos/IMG_0128.jpg"
-                style="width:200px"></td>
-	</tr>
-
-        <div class="preamble">
-        <h3> News </h3>
-        Dec 2017 Successful Fall 2017 Demo; <a href = "https://www.youtube.com/watch?v=mpNMWKr7rs4"> video </a>
+<body>
+    <div class="article-list">
+        <nav class="navbar navbar-light navbar-expand-md bg-light">
+            <div class="container-fluid"><a class="navbar-brand" href="index.html">CyPhyHouse<img src="assets/img/Picture1.png" height="40"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="docs.html">Docs</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Downloads</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="team.html">Team</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact Us&nbsp; &nbsp; &nbsp;&nbsp;</a></li>
+                    </ul>
+            </div><img src="assets/img/NSFlogo.png" height="40"></div>
+    </nav>
+    <div class="container">
+        <div class="intro"><h2 class="text-center">CyPhyHouse : a toolchain for distributed robotics</h2>
+            <p class="text-center">CyPhyHouse aims to provide programming, debugging, and deployment benefits for distributed mobile robotic applications. Develop hardware-agnostic, distributed applications using the high-level, event driven Koord programming language included
+                with CyPhyHouse, without requiring expertise in controller design or distributed network protocols.<br><br></p>
         </div>
-        
-          </div>
-          </div>
-         
-    <aside class="sidebar" role="complementary">
-        <div class="wrapper">
-
-        <div class="selection" id="design-selection">
-            <h3 class="select"></h3>
-              <ul>
-                  <li><a class= "option" href="index.html">Home</a> <a class="description"> CyPhyHouse Home </a></li>
-                  <li><a class= "option" href="synopsis.html">Synopsis</a> <a class="description"> Project Vision and Goals </a></li>
-                  <li><a class= "option" href="personnel.html">Personnel</a><a class="description"> CyPhyHouse Team </a></li>
-                  <li><a class= "option" href="outreach.html">Outreach Activities</a><a class="description"> Showcases of the
-                      CyPhyHouse Framework</a></li>
-                  <li><a class= "option" href="publications.html">Publications</a><a class="description"> Papers, Talks and Slides </a></li>
-                  <li><a class= "option" href="code.html">Code</a><a class="description"> Try our framework </a></li>
-                  <li><a class= "option" href="contact.html">Contact Us</a><a class="description"> Ask Questions or Contribute </a></li>
-              </ul>
-          </div>
+        <div class="row articles">
+            <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/Screenshot%202020-05-28%2023.58.57.png" width="150"></a>
+                <h3 class="name">Code</h3>
+                <p class="description">Use Koord, our high level programming language to write clear, succinct code.&nbsp;&nbsp;</p><a class="action" href="#"></a></div>
+            <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/shapeform_16.jpg"></a>
+                <h3 class="name">Simulate</h3>
+                <p class="description">Simulate Koord applications directly in our simulation environment in Gazebo.&nbsp;</p><a class="action" href="#"></a></div>
+            <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/deploy.png"></a>
+                <h3 class="name">Deploy</h3>
+                <p class="description">Deploy Koord code on heterogenous hardware platforms.&nbsp;</p><a class="action" href="#"></a></div>
         </div>
-    </aside>
-  </body>
+    </div>
+    </div>
+    <div class="bg-white border-white features-boxed">
+        <div class="container text-body bg-light">
+            <div class="intro">
+                <h2 class="text-center">Features </h2>
+                <p class="text-center"></p>
+            </div>
+            <div class="row justify-content-center features">
+                <div class="col-1 col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-code icon"></i>
+                        <h3 class="name">Clean Code</h3>
+                        <p class="description">Koord abstractions make coding easier by moving low-level hardware functionality and network communication protocols under the hood.&nbsp;</p><a class="learn-more" href="#">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="border-dark box"><i class="fa fa-recycle icon"></i>
+                        <h3 class="name">Modular Design</h3>
+                        <p class="description">&nbsp;CyPhyHouse middleware allows plug and play features such as path planners, controllers, mutual exclusion and communication protocols.</p><a class="learn-more" href="#">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-expand icon"></i>
+                        <h3 class="name">Separation of Concerns</h3>
+                        <p class="description">The formal semantics of Koord separates out platform specific control logic from distributed coordination program logic to simplify formal analyses.</p><a class="learn-more" href="#">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-bullseye icon"></i>
+                        <h3 class="name">High Fidelity&nbsp;</h3>
+                        <p class="description">Applications are deployed as well as simulated, without any modification to code, preserving the behavior of the distributed coordination logic.</p><a class="learn-more" href="#">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-plane icon"></i>
+                        <h3 class="name">Fast Development Cycle</h3>
+                        <p class="description">Configuration files, launch protocols and no code recompilation reduce overheads in testing, debugging and deployment&nbsp;</p><a class="learn-more" href="#">Learn more »</a></div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box"><i class="fa fa-phone icon"></i>
+                        <h3 class="name">Customizable&nbsp;</h3>
+                        <p class="description">Koord semantics is highly customizable due to its design, and CyPhyHouse has well defined interfaces to support the customizations.&nbsp;</p><a class="learn-more" href="#">Learn more »</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <h4><br>An overview of CyPhyHouse<br><br></h4><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/47st8zUDd54" width="560" height="315"></iframe></div>
+    <footer>
+        <p class="text-center text-dark bg-white"><br><br><br>This project is sponsored by a research grant from the Division of Computer and Network Systems (CNS) of the&nbsp;<a href="https://www.nsf.gov/">National Science Foundation (NSF)</a>.</p>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
 </html>
