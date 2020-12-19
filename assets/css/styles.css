@@ -1,0 +1,15 @@
+.card-img-size-small {
+    object-fit: contain;
+    height: 180px;
+    width: auto;
+}
+
+.card-iframe-size-medium{
+    width: 100%;
+    height: 300px;
+}
+
+.card-iframe-size-small{
+    width: 100%;
+    height: 200px;
+}
