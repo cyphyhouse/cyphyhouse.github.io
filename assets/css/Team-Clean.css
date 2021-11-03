@@ -63,7 +63,10 @@
 }
 
 .team-clean .item img {
-  max-width: 160px;
+  height: 140px;
+  width: 120px;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .team-clean .social {
